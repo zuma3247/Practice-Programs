@@ -1,0 +1,5 @@
+# ninja log v5
+1799	1903	1743741256699179711	A9___Huffman_Code	6958bc5de8a8eb92
+5	2007	1743741033330085608	CMakeFiles/A9___Huffman_Code.dir/main.cpp.o	27970ae069d392a7
+0	196	1744385081632510217	build.ninja	472dca4206099a3c
+0	1799	1743741256588912995	CMakeFiles/A9___Huffman_Code.dir/HuffDriver.cpp.o	234a0af04920cd5c

@@ -1,0 +1,5 @@
+# ninja log v5
+1972	2276	1740591843792608877	A6___Binary_Tree	ceb31ff5454c819
+0	2310	1740589572165291033	CMakeFiles/A6___Binary_Tree.dir/main.cpp.o	5fff2cf5f075e8f4
+0	196	1742358601163829618	build.ninja	aafb15bb9fa8f86c
+7	1972	1740591843486562314	CMakeFiles/A6___Binary_Tree.dir/driver.cpp.o	83d770683c622870

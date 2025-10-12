@@ -1,0 +1,24 @@
+bool AList :: removeHelper ( int index, const <T> & value )
+{
+    if (index == size)
+    return false;
+            if (data[index] == item)
+            {
+                for (int i = index; i < size - 1; i++)
+                {
+                    data[i] = data[i + 1];
+                }
+                size--;
+                return true;
+            }
+            return deleteHelper(item, index + 1);
+}
+
+bool AList :: remove (const <T> & value )
+{
+    bool success = false;
+
+    success = removeHelper ( numValues - 1, value );
+
+    return success;
+}

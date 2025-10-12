@@ -1,0 +1,35 @@
+void heapify(int elements[], int numElements, int i)
+{
+    bool needsHeapifying = true;
+    int left,
+            right,
+            largest;
+
+    while (needsHeapifying)
+    {
+        left = 2 * i + 1;
+        right = 2 * i + 2;
+        largest = i;
+
+        if (left < numElements && elements[left] > elements[largest])
+        {
+            largest = left;
+        }
+
+        if (right < numElements && elements[right] > elements[largest])
+        {
+            largest = right;
+        }
+
+        if (largest == i)
+        {
+            needsHeapifying = false;
+        }
+        else
+        {
+            swap(elements[i], elements[largest]);
+            i = largest;
+        }
+    }
+}
+

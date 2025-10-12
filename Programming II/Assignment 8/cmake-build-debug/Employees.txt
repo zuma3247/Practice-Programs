@@ -1,0 +1,22 @@
+
+NAME:     Stephen Smith
+AGE:      25
+EMPLOYED: 12/15/2001
+
+NAME:     
+Susan Kim-Jones
+AGE:      33
+EMPLOYED: 01/09/2012
+
+NAME:     
+Kun Joom Jadav
+AGE:      52
+EMPLOYED: 08/22/1999
+
+NAME:     Denise Lynch
+AGE:      22
+EMPLOYED: 12/22/2012
+
+NAME:     James Fred
+AGE:      35
+EMPLOYED: 03/19/2018

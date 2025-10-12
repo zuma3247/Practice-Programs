@@ -1,0 +1,122 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: CMAKE_TRY_COMPILE
+# Configurations: 
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/mac/Desktop/Webster/Studies/COSC$ 3100$ -$ Data$ Structures$ I/Prog9/cmake-build-debug/CMakeFiles/CMakeTmp/
+# =============================================================================
+# Object build statements for EXECUTABLE target cmTC_dc863
+
+
+#############################################
+# Order-only phony target for cmTC_dc863
+
+build cmake_object_order_depends_target_cmTC_dc863: phony || CMakeFiles/cmTC_dc863.dir
+
+build CMakeFiles/cmTC_dc863.dir/CMakeCXXCompilerABI.cpp.o: CXX_COMPILER__cmTC_dc863_ /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp || cmake_object_order_depends_target_cmTC_dc863
+  DEP_FILE = CMakeFiles/cmTC_dc863.dir/CMakeCXXCompilerABI.cpp.o.d
+  FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics   -v -Wl,-v
+  OBJECT_DIR = CMakeFiles/cmTC_dc863.dir
+  OBJECT_FILE_DIR = CMakeFiles/cmTC_dc863.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target cmTC_dc863
+
+
+#############################################
+# Link the executable cmTC_dc863
+
+build cmTC_dc863: CXX_EXECUTABLE_LINKER__cmTC_dc863_ CMakeFiles/cmTC_dc863.dir/CMakeCXXCompilerABI.cpp.o
+  FLAGS = -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk
+  LINK_FLAGS = -v -Wl,-v
+  OBJECT_DIR = CMakeFiles/cmTC_dc863.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = cmTC_dc863
+  TARGET_PDB = cmTC_dc863.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/mac/Desktop/Webster/Studies/COSC 3100 - Data Structures I/Prog9/cmake-build-debug/CMakeFiles/CMakeTmp" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd "/Users/mac/Desktop/Webster/Studies/COSC 3100 - Data Structures I/Prog9/cmake-build-debug/CMakeFiles/CMakeTmp" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/mac/Desktop/Webster/Studies/COSC 3100 - Data Structures I/Prog9/cmake-build-debug/CMakeFiles/CMakeTmp" -B"/Users/mac/Desktop/Webster/Studies/COSC 3100 - Data Structures I/Prog9/cmake-build-debug/CMakeFiles/CMakeTmp"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/mac/Desktop/Webster/Studies/COSC 3100 - Data Structures I/Prog9/cmake-build-debug/CMakeFiles/CMakeTmp
+
+build all: phony cmTC_dc863
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
